@@ -73,8 +73,7 @@ Thus, one clear difference is that, Naive Bayes makes a conditional independence
 
 Given this, the output for Logistic Regression gives us more context and given that some words might be correlated to others, the top words for Logistic Regression are the ones that are the best predictors with the context of other words. 
 
-Also, in a paper written by Professor Andrew Ng and Professor Michael I Jordan, which provides a mathematical proof of error properties of both the logistic regression and naive bayes, they concluded that when the training size reaches infinity, the discriminative model (Logistic Regression) performs better than the generative model (Naive Bayes). [Source](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf)
-Thus, with a larger dataset, for example, increase the data interval from 1 year to 2 years, we could expect the Logistic Regression model to score even better.
+Also, in a paper written by Professor Andrew Ng and Professor Michael I Jordan[Source](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf), which provides a mathematical proof of error properties of both the logistic regression and naive bayes, they concluded that when the training size reaches infinity, the discriminative model (Logistic Regression) performs better than the generative model (Naive Bayes). Thus, with a larger dataset, for example, increase the data interval from 1 year to 2 years, we could expect the Logistic Regression model to score even better.
 
 With the above in mind, we conclude that Logistic Regression with TF-IDF Vectorizer works best.
 
